@@ -198,7 +198,7 @@ vector<uint64_t> breakdown(uint64_t n) {
 
 /**
  * @description: 使整数序列不重复
- *               std::set的底层实现是红黑树的平衡二叉树，
+ *               std::set的底层实现是红黑树，
  *               其元素value唯一，可以用于去重和排序
  * @param {vector<uint64_t>&} arr 例如 2 2 5 5
  * @return {vector<uint64_t>} 例如 2 5
